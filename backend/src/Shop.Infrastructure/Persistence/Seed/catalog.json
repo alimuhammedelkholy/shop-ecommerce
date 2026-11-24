@@ -1,0 +1,461 @@
+{
+  "categories": [
+    {
+      "slug": "electronics",
+      "name": "Electronics",
+      "nameAr": "الإلكترونيات",
+      "parentSlug": null
+    },
+    {
+      "slug": "fashion",
+      "name": "Fashion",
+      "nameAr": "الأزياء",
+      "parentSlug": null
+    },
+    {
+      "slug": "home-living",
+      "name": "Home & Living",
+      "nameAr": "المنزل والمعيشة",
+      "parentSlug": null
+    },
+    {
+      "slug": "smartphones",
+      "name": "Smartphones",
+      "nameAr": "الهواتف الذكية",
+      "parentSlug": "electronics"
+    },
+    {
+      "slug": "laptops",
+      "name": "Laptops",
+      "nameAr": "أجهزة اللابتوب",
+      "parentSlug": "electronics"
+    },
+    {
+      "slug": "headphones",
+      "name": "Headphones",
+      "nameAr": "سماعات الرأس",
+      "parentSlug": "electronics"
+    },
+    {
+      "slug": "men",
+      "name": "Men's Clothing",
+      "nameAr": "ملابس رجالية",
+      "parentSlug": "fashion"
+    },
+    {
+      "slug": "women",
+      "name": "Women's Clothing",
+      "nameAr": "ملابس نسائية",
+      "parentSlug": "fashion"
+    },
+    {
+      "slug": "footwear",
+      "name": "Footwear",
+      "nameAr": "الأحذية",
+      "parentSlug": "fashion"
+    },
+    {
+      "slug": "furniture",
+      "name": "Furniture",
+      "nameAr": "الأثاث",
+      "parentSlug": "home-living"
+    },
+    {
+      "slug": "kitchen",
+      "name": "Kitchen",
+      "nameAr": "المطبخ",
+      "parentSlug": "home-living"
+    },
+    {
+      "slug": "decor",
+      "name": "Decor",
+      "nameAr": "الديكور",
+      "parentSlug": "home-living"
+    }
+  ],
+  "brands": [
+    {
+      "slug": "nova",
+      "name": "Nova",
+      "nameAr": "نوفا"
+    },
+    {
+      "slug": "aether",
+      "name": "Aether",
+      "nameAr": "إيثر"
+    },
+    {
+      "slug": "lumen",
+      "name": "Lumen",
+      "nameAr": "لومن"
+    },
+    {
+      "slug": "kora",
+      "name": "Kora",
+      "nameAr": "كورا"
+    },
+    {
+      "slug": "vanta",
+      "name": "Vanta",
+      "nameAr": "فانتا"
+    },
+    {
+      "slug": "orbit",
+      "name": "Orbit",
+      "nameAr": "أوربت"
+    },
+    {
+      "slug": "solace",
+      "name": "Solace",
+      "nameAr": "سولاس"
+    },
+    {
+      "slug": "atlas",
+      "name": "Atlas",
+      "nameAr": "أطلس"
+    },
+    {
+      "slug": "zenit",
+      "name": "Zenit",
+      "nameAr": "زينيت"
+    },
+    {
+      "slug": "haven",
+      "name": "Haven",
+      "nameAr": "هيفن"
+    }
+  ],
+  "products": [
+    {
+      "name": "Nova X1 Smartphone 128GB",
+      "nameAr": "هاتف نوفا X1 الذكي 128 جيجابايت",
+      "category": "smartphones",
+      "brand": "nova",
+      "price": 499,
+      "compareAt": 549
+    },
+    {
+      "name": "Nova X1 Pro Smartphone 256GB",
+      "nameAr": "هاتف نوفا X1 برو الذكي 256 جيجابايت",
+      "category": "smartphones",
+      "brand": "nova",
+      "price": 749
+    },
+    {
+      "name": "Aether A5 Smartphone",
+      "nameAr": "هاتف إيثر A5 الذكي",
+      "category": "smartphones",
+      "brand": "aether",
+      "price": 329,
+      "compareAt": 379
+    },
+    {
+      "name": "Aether A7 Max Smartphone",
+      "nameAr": "هاتف إيثر A7 ماكس الذكي",
+      "category": "smartphones",
+      "brand": "aether",
+      "price": 599
+    },
+    {
+      "name": "Orbit Lite 5G Smartphone",
+      "nameAr": "هاتف أوربت لايت 5G الذكي",
+      "category": "smartphones",
+      "brand": "orbit",
+      "price": 249
+    },
+    {
+      "name": "Nova Book 14 Ultrabook",
+      "nameAr": "لابتوب نوفا بوك 14 ألترابوك",
+      "category": "laptops",
+      "brand": "nova",
+      "price": 999,
+      "compareAt": 1099
+    },
+    {
+      "name": "Nova Book 16 Creator Laptop",
+      "nameAr": "لابتوب نوفا بوك 16 للمبدعين",
+      "category": "laptops",
+      "brand": "nova",
+      "price": 1599
+    },
+    {
+      "name": "Aether Slim 13 Laptop",
+      "nameAr": "لابتوب إيثر سليم 13",
+      "category": "laptops",
+      "brand": "aether",
+      "price": 749
+    },
+    {
+      "name": "Vanta Gaming Laptop 15",
+      "nameAr": "لابتوب فانتا للألعاب 15",
+      "category": "laptops",
+      "brand": "vanta",
+      "price": 1299,
+      "compareAt": 1449
+    },
+    {
+      "name": "Orbit Student Laptop 14",
+      "nameAr": "لابتوب أوربت للطلاب 14",
+      "category": "laptops",
+      "brand": "orbit",
+      "price": 449
+    },
+    {
+      "name": "Lumen Wireless Headphones",
+      "nameAr": "سماعات لومن اللاسلكية",
+      "category": "headphones",
+      "brand": "lumen",
+      "price": 129,
+      "compareAt": 159
+    },
+    {
+      "name": "Lumen Pro ANC Headphones",
+      "nameAr": "سماعات لومن برو بخاصية إلغاء الضوضاء",
+      "category": "headphones",
+      "brand": "lumen",
+      "price": 249
+    },
+    {
+      "name": "Aether Buds True Wireless Earbuds",
+      "nameAr": "سماعات إيثر بودز اللاسلكية",
+      "category": "headphones",
+      "brand": "aether",
+      "price": 89
+    },
+    {
+      "name": "Vanta Gaming Headset",
+      "nameAr": "سماعة فانتا للألعاب",
+      "category": "headphones",
+      "brand": "vanta",
+      "price": 79,
+      "compareAt": 99
+    },
+    {
+      "name": "Orbit Sport Earbuds",
+      "nameAr": "سماعات أوربت الرياضية",
+      "category": "headphones",
+      "brand": "orbit",
+      "price": 59
+    },
+    {
+      "name": "Atlas Classic Cotton T-Shirt",
+      "nameAr": "تيشيرت أطلس قطني كلاسيكي",
+      "category": "men",
+      "brand": "atlas",
+      "price": 24
+    },
+    {
+      "name": "Atlas Slim Fit Chinos",
+      "nameAr": "بنطلون أطلس تشينو بقصة ضيقة",
+      "category": "men",
+      "brand": "atlas",
+      "price": 49,
+      "compareAt": 59
+    },
+    {
+      "name": "Kora Oxford Button-Down Shirt",
+      "nameAr": "قميص كورا أوكسفورد بأزرار",
+      "category": "men",
+      "brand": "kora",
+      "price": 45
+    },
+    {
+      "name": "Kora Hooded Sweatshirt",
+      "nameAr": "سويت شيرت كورا بقلنسوة",
+      "category": "men",
+      "brand": "kora",
+      "price": 59
+    },
+    {
+      "name": "Zenit Lightweight Jacket",
+      "nameAr": "جاكيت زينيت خفيف",
+      "category": "men",
+      "brand": "zenit",
+      "price": 89,
+      "compareAt": 119
+    },
+    {
+      "name": "Kora Linen Summer Dress",
+      "nameAr": "فستان كورا صيفي من الكتان",
+      "category": "women",
+      "brand": "kora",
+      "price": 69
+    },
+    {
+      "name": "Kora Knit Cardigan",
+      "nameAr": "كارديجان كورا محبوك",
+      "category": "women",
+      "brand": "kora",
+      "price": 55
+    },
+    {
+      "name": "Zenit High-Waist Jeans",
+      "nameAr": "جينز زينيت عالي الخصر",
+      "category": "women",
+      "brand": "zenit",
+      "price": 64,
+      "compareAt": 79
+    },
+    {
+      "name": "Atlas Everyday Blouse",
+      "nameAr": "بلوزة أطلس للاستخدام اليومي",
+      "category": "women",
+      "brand": "atlas",
+      "price": 39
+    },
+    {
+      "name": "Zenit Wool Blend Coat",
+      "nameAr": "معطف زينيت من خليط الصوف",
+      "category": "women",
+      "brand": "zenit",
+      "price": 139,
+      "compareAt": 179
+    },
+    {
+      "name": "Orbit Runner Sneakers",
+      "nameAr": "حذاء أوربت الرياضي للجري",
+      "category": "footwear",
+      "brand": "orbit",
+      "price": 85
+    },
+    {
+      "name": "Orbit Trail Hiking Shoes",
+      "nameAr": "حذاء أوربت للمشي في الطبيعة",
+      "category": "footwear",
+      "brand": "orbit",
+      "price": 110
+    },
+    {
+      "name": "Atlas Leather Loafers",
+      "nameAr": "حذاء أطلس جلدي بدون رباط",
+      "category": "footwear",
+      "brand": "atlas",
+      "price": 95,
+      "compareAt": 120
+    },
+    {
+      "name": "Zenit Classic Canvas Sneakers",
+      "nameAr": "حذاء زينيت قماشي كلاسيكي",
+      "category": "footwear",
+      "brand": "zenit",
+      "price": 45
+    },
+    {
+      "name": "Kora Comfort Sandals",
+      "nameAr": "صندل كورا المريح",
+      "category": "footwear",
+      "brand": "kora",
+      "price": 35
+    },
+    {
+      "name": "Haven Oak Coffee Table",
+      "nameAr": "طاولة قهوة هيفن من خشب البلوط",
+      "category": "furniture",
+      "brand": "haven",
+      "price": 189
+    },
+    {
+      "name": "Haven Ergonomic Office Chair",
+      "nameAr": "كرسي مكتب هيفن المريح",
+      "category": "furniture",
+      "brand": "haven",
+      "price": 229,
+      "compareAt": 269
+    },
+    {
+      "name": "Solace Three-Seat Sofa",
+      "nameAr": "أريكة سولاس بثلاثة مقاعد",
+      "category": "furniture",
+      "brand": "solace",
+      "price": 649,
+      "compareAt": 749
+    },
+    {
+      "name": "Solace Floating Bookshelf",
+      "nameAr": "رف كتب سولاس معلق",
+      "category": "furniture",
+      "brand": "solace",
+      "price": 79
+    },
+    {
+      "name": "Haven Queen Bed Frame",
+      "nameAr": "هيكل سرير هيفن مقاس كوين",
+      "category": "furniture",
+      "brand": "haven",
+      "price": 399
+    },
+    {
+      "name": "Solace Stainless Steel Cookware Set",
+      "nameAr": "طقم أواني طهي سولاس من الستانلس ستيل",
+      "category": "kitchen",
+      "brand": "solace",
+      "price": 149,
+      "compareAt": 189
+    },
+    {
+      "name": "Haven Electric Kettle 1.7L",
+      "nameAr": "غلاية كهربائية هيفن 1.7 لتر",
+      "category": "kitchen",
+      "brand": "haven",
+      "price": 34
+    },
+    {
+      "name": "Lumen Smart Air Fryer 5L",
+      "nameAr": "قلاية هوائية ذكية لومن 5 لتر",
+      "category": "kitchen",
+      "brand": "lumen",
+      "price": 119,
+      "compareAt": 149
+    },
+    {
+      "name": "Solace Ceramic Dinner Set 16-Piece",
+      "nameAr": "طقم عشاء سيراميك سولاس 16 قطعة",
+      "category": "kitchen",
+      "brand": "solace",
+      "price": 89
+    },
+    {
+      "name": "Haven Chef Knife Set",
+      "nameAr": "طقم سكاكين الشيف هيفن",
+      "category": "kitchen",
+      "brand": "haven",
+      "price": 74
+    },
+    {
+      "name": "Haven Woven Wall Basket Set",
+      "nameAr": "طقم سلال حائط منسوجة هيفن",
+      "category": "decor",
+      "brand": "haven",
+      "price": 42
+    },
+    {
+      "name": "Solace Ceramic Table Vase",
+      "nameAr": "مزهرية طاولة سيراميك سولاس",
+      "category": "decor",
+      "brand": "solace",
+      "price": 29
+    },
+    {
+      "name": "Lumen LED Floor Lamp",
+      "nameAr": "مصباح أرضي لومن LED",
+      "category": "decor",
+      "brand": "lumen",
+      "price": 69,
+      "compareAt": 85
+    },
+    {
+      "name": "Solace Wool Area Rug 160x230",
+      "nameAr": "سجادة سولاس صوفية 160×230",
+      "category": "decor",
+      "brand": "solace",
+      "price": 159
+    },
+    {
+      "name": "Haven Scented Candle Trio",
+      "nameAr": "ثلاث شموع معطرة هيفن",
+      "category": "decor",
+      "brand": "haven",
+      "price": 27
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+/* Design tokens: colors, type, radii, shadows. Dark theme overrides live in [data-theme='dark']. */
+:root {
+  color-scheme: light;
+  --font: 'Inter', 'IBM Plex Sans Arabic', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --bg: #f6f6fb;
+  --surface: #ffffff;
+  --surface-2: #f0f1f8;
+  --surface-3: #e8e9f4;
+  --text: #11121c;
+  --text-2: #3b3e55;
+  --muted: #62667f;
+  --border: #e3e5f0;
+  --border-strong: #cfd2e3;
+
+  --brand: #5b4bf5;
+  --brand-600: #4a3ce0;
+  --brand-700: #3b2fc2;
+  --brand-soft: #eeecff;
+  --brand-ink: #ffffff;
+  --accent: #ff6a45;
+  --accent-600: #f0532b;
+  --accent-soft: #fff0eb;
+  --success: #0f9d58;
+  --success-soft: #e4f7ec;
+  --warning: #f5a524;
+  --warning-soft: #fff4dc;
+  --danger: #e5484d;
+  --danger-soft: #fdecec;
+  --star: #f5a524;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-xl: 26px;
+  --r-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgb(17 18 28 / 0.06), 0 1px 1px rgb(17 18 28 / 0.04);
+  --shadow-md: 0 6px 20px -6px rgb(30 30 80 / 0.16), 0 2px 6px rgb(17 18 28 / 0.05);
+  --shadow-lg: 0 24px 60px -18px rgb(40 30 120 / 0.28), 0 8px 20px -8px rgb(17 18 28 / 0.1);
+  --ring: 0 0 0 3px rgb(91 75 245 / 0.28);
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --header-h: 72px;
+  --dir: 1;
+}
+
+[dir='rtl'] { --dir: -1; }
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0b0c13;
+  --surface: #13141f;
+  --surface-2: #1a1c2a;
+  --surface-3: #232637;
+  --text: #f2f3fb;
+  --text-2: #cdd0e6;
+  --muted: #9a9fbd;
+  --border: #262a3d;
+  --border-strong: #353a52;
+
+  --brand: #8b7dff;
+  --brand-600: #9d92ff;
+  --brand-700: #b4abff;
+  --brand-soft: #232048;
+  --brand-ink: #0b0c13;
+  --accent: #ff7d5c;
+  --accent-600: #ff9275;
+  --accent-soft: #3a211b;
+  --success: #3ecf8e;
+  --success-soft: #12301f;
+  --warning-soft: #3a2d10;
+  --danger: #ff6b70;
+  --danger-soft: #3b1a1c;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 8px 24px -8px rgb(0 0 0 / 0.6);
+  --shadow-lg: 0 28px 64px -18px rgb(0 0 0 / 0.7);
+  --ring: 0 0 0 3px rgb(139 125 255 / 0.4);
+}
